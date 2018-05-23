@@ -1,0 +1,41 @@
+@import "font";
+@import "variables";
+
+body
+{
+    background-image: $background;
+}
+
+ul
+{
+    float: right;
+    margin-right: 50px;
+}
+
+li
+{
+    a
+    {
+        color: $blanc;
+        font-size: 20px;
+        text-decoration: none;
+        vertical-align: middle;
+        position: relative;
+    }
+    
+    a:hover
+    {
+        text-decoration: none;
+        color: #83a1d1;
+        transform: perspective(1px) translateZ(0);
+        transition-duration: 0.3s;
+        transition-property: transform;
+    }
+} 
+
+li
+{
+    display: inline-block;
+    line-height: 100px;
+    margin-right: 50px;
+}
